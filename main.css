@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat&family=Mukta&family=Roboto:wght@300&family=Water+Brush&display=swap');
+
+body {
+    background-image: url("CN\ long\ logo.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-color:beige;
+    color:blue;
+    font-size: 20px;
+    font-family: 'Tahoma', sans-serif;
+}
+
+h1 {
+    color: black;
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 1.7;
+}
+h3 {
+    font-size: 1.3em;
+}
+h1,h2,h3 {
+    font-family: Macondo, cursive;
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    height: 135px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.navbutton {
+    display: flex;
+    box-sizing: border-box;
+    border-color: black;
+    background-color: aliceblue;
+    color:black;
+    border-width: 10px;
+    border-style: solid;
+    padding: 25px;
+    margin: 25px;
+    width: 350px;
+    height: 100px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.navbutton:visited {
+    text-decoration: none;
+}
+
+p{
+    text-align: justify;
+}
+
+#patrick{
+    color:darkgreen;
+    background-color: aquamarine;
+}
